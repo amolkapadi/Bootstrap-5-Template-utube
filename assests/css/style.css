@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black !important;
+}
+
+/******Home img**/
+.home-img{
+    width: 100% !important;
+    height: 100vh !important;
+}
+
+
+/******about*****/
+.bg-about{
+    background-color: aliceblue;
+}
+.about-text{
+    
+    margin: auto;
+}
+.btn-primary{
+    border: 2px solid black !important;
+    color: black !important;
+    background-color: aliceblue !important;
+}
+
+/*******services*****/
+.bg-services{
+    background-color: antiquewhite;
+}
+.card{
+    border-radius: 0 !important;
+    cursor: pointer;
+    padding: 5px;
+}
+.card:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card-img-top{
+    border-radius: 0 !important;
+}
+
+/*****media Query***/
+@media only screen and (max-width: 600px) {
+    .home-img{
+        height: 70vh !important;
+    }
+    
+ 
+    .about-text{
+    width: 100% !important;
+ }
+}
